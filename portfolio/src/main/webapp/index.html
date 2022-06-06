@@ -5,15 +5,82 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+      <h1 class="title">My Portfolio</h1>
+      <img src="/images/julia.jpg" width=300 height=auto/>
+      <p>Name: Julia Sullivan</p>
+      <p>Job: Software Engineer - AndroidX Core Tools</p>
+      <br>
+      <p>In the last year, I've tried learning to paint figurines, play the guitar, 
+          do kickboxing, make a game, work at a company, learn voice acting, work on D&D campaigns,
+          still have a social life, and get decent sleep. Guess which one fell to the wayside :)</p>
+      <br>
+      <br>
+      <p>I don't play the guitar much anymore.</p>
+
+      <h2>My Projects</h2>
+      <h3>Google</h3>
+      <ul>
+        <li>AndroidX - Cross platform error links</li>
+        <li>AndroidX - Robolectric project (WiP)</li>
+        <li>Android Messages - Backend fakes</li>
+        <li>Android Messages - Accessibility checker integration</li>
+        <li>Android Messages - Emulator testing framework</li>
+        <li>Android Messages - Emulator testing framework</li>
+      </ul>
+      <h3>Non-Google Projects</h3>
+      <ul>
+        <li>Walk to the Woods - Conversation Party Game</li>
+        <li>Zero Day - First Person Voxel Based Shooter</li>
+        <li>Alatheia - Rope Swinging Platformer</li>
+        <li>Cyberfunk - DDR style dance game with dance battles</li>
+        <li>The Beta Tester - Short RPG for a game in a week competition</li>
+        <li>A bunch of Oblivion mods from a long time ago</li>
+      </ul>
+      <h2>Photos Gallery</h2>
+      <table>
+          <tr>
+              <th>
+                <img class="gallery-image" src="/images/cake.jpg"/>
+              </th>
+              <th>
+                <img class="gallery-image"  src="/images/donut.jpg"/>
+              </th>
+              <th>
+                <img class="gallery-image" src="/images/drink.jpg"/>
+              </th>
+          </tr>
+          <tr>
+              <td>
+                <img class="gallery-image" src="/images/frenchtoast.jpg"/>
+              </td>
+              <td>
+                <img class="gallery-image" src="/images/hair.jpg"/>
+              </td>
+              <td>
+                <img class="gallery-image" src="/images/happy.jpg"/>
+              </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="gallery-image" src="/images/wttw.jpg"/>
+            </td>
+            <td>
+              <img class="gallery-image" src="/images/toast.jpg"/>
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <p>I like taking pictures of things that I'm proud of or think will make a fun story in the future.
+            Can you guess which ones I'm proud of and which are the stories?
+        </p>
+      </table>
     </div>
   </body>
 </html>
